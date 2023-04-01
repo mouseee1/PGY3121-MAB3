@@ -26,7 +26,6 @@ body{
     padding: 5px;
 }
 
-
 .nav-item:hover{
     background-color: chocolate;
     transition: 0.3 ease;
