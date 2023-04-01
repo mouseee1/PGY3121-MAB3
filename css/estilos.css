@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(151, 111, 36);
+}
+
+.navbar-nav{
+    align-items: right;
+    justify-content: right;
+}
+
+.nav-item{
+    display: flex;
+    text-decoration: none;
+    justify-content: right;
+    align-items: right;
+    font-size: 20px;
+    transition: 02.6 ease;
+    transition-property: left;
+    padding: 5px;
+}
+
+
+.nav-item:hover{
+    background-color: chocolate;
+    transition: 0.3 ease;
+}
+
+.navbar-nav .nav-item{
+    color: rgba(10, 24, 87, 0.233);
+}
+
+
+
+
+
+
+
+
+
